@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-html {
+body {
           background-color: rgb(66, 238, 23);
           background-image: url(images/favicon.svg.png);
           background-position: center;
@@ -8,7 +8,7 @@ html {
           font-size: 18px;
           font-family: monospace,Arial, Helvetica, sans-serif;
           color: rgb(19, 230, 194);
-          margin: 0px;
+          margin:0;
 }
 
 .navbar {
@@ -17,6 +17,7 @@ html {
           padding: 5px;
           border-bottom: 5px solid rgb(185, 213, 237);
           position: fixed;
+          overflow: hidden;
 }
 
 .navbar h1 {
@@ -83,6 +84,8 @@ html {
           width: 100%;
           padding: 5px;
           border-top: 5px solid rgb(185, 213, 237);
+          position: relative;
+          overflow: hidden;
 }
 
 .footer h1 {
